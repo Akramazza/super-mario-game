@@ -1,0 +1,52 @@
+/* إعدادات أساسية */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #87CEEB; /* السماء الزرقاء */
+}
+
+#game-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#mario {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 50px;
+    height: 70px;
+    background-color: #FF0000; /* لون ماريو الأحمر */
+    border-radius: 10px;
+}
+
+#ground {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #228B22; /* أرضية أخضر */
+}
+
+#coins {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 50%;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
